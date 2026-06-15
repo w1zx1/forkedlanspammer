@@ -9,23 +9,23 @@
 
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/w1zx1/fls/latest)
 
-a tool for creating multiple fake servers in a local minecraft network. all players on the network will see these servers in their multiplayer list and may attempt to connect (unsuccessfully).
-#### README.md also available on [russian](https://github.com/w1zx1/fls/blob/main/README_ru.md)
-### script features
-- configuration via config.yml.
-- support for minecraft color codes (§ or &) in server names.
-- randomization of ports for each fake server.
-### how to run
-1. install jdk 11 or newer.
-2. download the repository files.
-3. edit config.yml to suit your needs.
-4. run with the command:
+инструмент для создания множества фейковых серверов в локальной сети minecraft. все игроки в сети увидят эти сервера в списке multiplayer и смогут попытаться подключиться (безуспешно).
+#### README.md также доступен на [английском](https://github.com/w1zx1/fls/blob/main/README_en.md)
+### возможности скрипта
+- настройка через config.yml.
+- поддержка цветовых кодов minecraft (§ или &) в названиях серверов.
+- рандомизация портов для каждого фейкового сервера.
+### как запустить
+1. установите jdk 11 или новее.
+2. скачайте файлы репозитория.
+3. отредактируйте config.yml под свои нужды.
+4. запустите командой:
 ```
 java LanSpammer.java
 ```
-## ⚠ warning!
-this script is created for educational purposes. it is not recommended to use it in public networks such as radmin vpn/hamachi or zerotier.
-## special thanks
-[slava240/lanspammer](https://github.com/slava240/lanspammer) (original)
+## ⚠ предупреждение!
+данный скрипт создан для ознакомительных целей. не рекомендуется использовать его в публичных сетях по типу radmin vpn/hamachi или zerotier.
+## особая благодарность
+[slava240/lanspammer](https://github.com/slava240/lanspammer) (оригинал)
 
-[ilyshaxoroshi/ForkedLanSpammer-Update](https://github.com/ilyshaxoroshi/ForkedLanSpammer-Update)
+[ilyshaxoroshi/forkedlanspammer-update](https://github.com/ilyshaxoroshi/forkedlanspammer-update)
